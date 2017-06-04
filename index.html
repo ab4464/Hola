@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>Hola! / Demo</title>
+
+    <link href="Bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="http://fonts.googlepis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    
+    
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="name">Hola!</span></a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="professors.html">Professor's guide</a></li>
+                    
+                    <li class="dropdown"><!-- this is a dropdown menu-->
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Select content<span class="caret"></span></a>
+                        
+                        <ul class="dropdown-menu">
+                            <li class="menu-content">By Hability</li>
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="#">Listening activities</a></li>
+                            <li><a href="#">Reading activities</a></li>
+                            <li><a href="#">Writing activities</a></li>
+                            <li><a href="#">Speaking activities</a></li>
+                            <li role="separator" class="divider"></li>
+                            
+                            <li class="menu-content">By Subject</li>
+                            <li role="separator" class="divider"></li>
+                            
+                            <li><a href="#"></a></li>
+                            <li><a href="#">Spelling and Vocabulary</a></li>
+                            <li><a href="#">Numbers and Quantities</a></li>
+                            <li><a href="#">Nouns, Pronouns and Adjectives</a></li>
+                            <li><a href="#">Verbs and Adverbs</a></li>  
+                        </ul>
+                    </li>
+                       
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search on Google...">
+                            </div>
+                            <button type="submit" class="btn green-bckg">Go!</button>
+                        </form>
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact us</a></li>
+                            
+                            <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">My account info <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">My progress</a></li>
+                                    <li><a href="#">Edit Profile</a></li>
+                                    <li><a href="#">Log out</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+      </nav>
+      
+      
+    
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8 border">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="https://anabphotohub.files.wordpress.com/2017/06/hola_presentations.png" alt="Text of presentation" style="width:100%;">
+          </div>
+
+          <div class="item">
+            <img src="https://anabphotohub.files.wordpress.com/2017/06/girlhola.png" alt="cartoon of a girl in a motocycle" style="width:100%;">
+          </div>
+        
+         <div class="item">
+            <img src="https://anabphotohub.files.wordpress.com/2017/06/spn-hola.png" alt="drawing of kids saying hello" style="width:100%;">
+          </div>
+        </div>
+            
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+  </div>
+</div>
+</div>
+      <div class="container-fluid">
+          <div class="well">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="content-header">
+                        <h1>Nouns, Adjectives and Articles</h1>
+                        <h3>In this section, we are going to learn about</h3> 
+                        <p><span class="label label-success">sustantivos</span>, <span class="label label-success">adjetivos</span> y <span class="label label-success">artículos.</span></p> <!--fix span responsiveness-->
+                    </div>
+                </div>
+            </div>
+            
+                <div class="container">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#home">Sustantivos</a></li>
+                                <li><a data-toggle="tab" href="#menu1">Adjetivos</a></li>
+                                <li><a data-toggle="tab" href="#menu2">Artículos</a></li>
+                                <li><a data-toggle="tab" href="#menu3">Ejercicios</a></li>
+                            </ul>
+
+                              <div class="tab-content"> <!--wraps up all teh tabs-->
+                                <div id="home" class="tab-pane fade in active">
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h3>SUSTANTIVOS</h3>
+                                        <p class="general">As in English, <span class="label label-success">los sustantivos</span> are used to identify living beings, places, ideas and things.</p> 
+                                        <p class="top-content"> En Español, we have 2 different classes of sustantivos:</p> 
+                                    </div>
+                                </div>
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-10">
+                                            <table class="table table-bordered table-condensed table-responsive">
+                                                <thead>
+                                                    <tr class="heading-table">
+                                                        <th>SUSTANTIVOS PROPIOS</th>
+                                                        <th>SUSTANTIVOS COMUNES</th>
+                                                    </tr>
+                                                    </thead>
+                                                <tbody class="body-table">
+                                                    <tr>
+                                                        <td><span class="glyphicon glyphicon-pencil"></span> Those that name places, cities and countries. They all start with capital letter.</td>
+                                                        <td><span class="glyphicon glyphicon-pencil"></span> Those that make reference to animals, things and living beings. They all use lower case.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><b>For example:</b> Starbucks, New Jersey, Europa, Marie.</td>
+                                                        <td><b>For example:</b> perro, casa, árbol, niño.</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="col-sm-1"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-10">
+                                            <p class="top-content"> Let's try to identify some sustantivos comunes y sustativos propios!</p> 
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-10">
+                                            <div class="panel">
+                                            <div class="panel-heading question"><span class="glyphicon glyphicon-blackboard"></span> Below you will find sustantivos comunes y propios desorganized. Drag each sustantivo and place it into its corresponging box:</div>
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-sm-12 list">
+                                                        <h3 class="label label-default label-xs">carro</h3>
+                                                        <h3 class="label label-danger label-xs">Peter</h3>
+                                                        <h3 class="label label-default label-xs">gato</h3>
+                                                        <h3 class="label label-info label-xs">Washington</h3>
+                                                        <h3 class="label label-warning label-xs">Amelia</h3>
+                                                        <h3 class="label label-danger label-xs">verano</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label class="label label-info">Sustantivos Comunes</label>
+                                                            <textarea class="form-control" rows="6"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label class="label label-info">Sustantivos Propios</label>
+                                                            <textarea class="form-control" rows="6"></textarea>
+                                                        </div>
+                                                    </div>
+                                                <div class="row">
+                                                    <div class="col-sm-9"></div>
+                                                    <div class="col-sm-3">
+                                                            <button type="button" class="btn btn-danger btn-sm">Reset</button>
+                                                            <button type="submit" class="btn btn-success btn-sm">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </div><!--end panel-body-->
+                                            </div><!--end panel-->
+                                        </div>
+                                            </div> 
+                                        
+                                  
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                    <p class="general"><span class="label label-success">Los sustantivos</span> also have a gender. They can be classified as: <b>femenino</b> or <b>masculino</b>.</p>
+                                        <p class="top-content">Let's see some examples!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <h3>Femeninos</h3>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <h3>Masculinos</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                             <img src="http://casasluz.com/espacio/wp-content/uploads/2013/09/Desafios-Generales-en-Diseño-de-una-Casa.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="https://s-media-cache-ak0.pinimg.com/originals/81/9f/26/819f262b3ab1f2929adf7b57c26a2dcd.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="http://weknowyourdreams.com/images/arbol/arbol-04.jpg">
+                                        </div>
+                                    </div>    
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="https://www.euroresidentes.com/mascotas/imagen-mascotas/entrenamiento-educacion-perros.jpg">
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>La Casa</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>La Pelota</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>El Árbol</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>El Perro</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-10">
+                                            <div class="form-group">
+                                                <label for="yourAnswer" class="question"><span class="glyphicon glyphicon-blackboard"></span> Observe the spelling of the words. Did you notice any pattern in the way they are written. Use the space bellow to explain:</label>
+                                                <textarea class="form-control" rows="8" id="yourAnswer"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                            <div class="form-group">
+                                                <div class="col-sm-offset-9 col-sm-3 spec">
+                                                    <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                                                </div>
+                                            </div>
+                                        
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                    <p class="general">Depending on the quantity, <span class="label label-warning">Los sustantivos</span> can be clasified in <b>singulares</b>  or <b>plurales.</b></p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <p><span class="glyphicon glyphicon-pencil"></span>Los sustantivos singulares make reference to an unique object.</p>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <p><span class="glyphicon glyphicon-pencil"></span>Los sustantivos plurales make reference to 2 or more objects.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <p class="top-content">Let's see some examples!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                             <img src="http://ainhoaweb.es/wp-content/uploads/2016/11/Consejos-para-cuidar-un-gato2.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="http://1.bp.blogspot.com/-wyfTaoXf1ik/VaDqzT-JWHI/AAAAAAAAC5o/wWzPqZKHoEA/s1600/lapiz.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="https://s-media-cache-ak0.pinimg.com/originals/b5/70/ed/b570edf4fd8e213183be46d6f48c808d.jpg">
+                                        </div>
+                                    </div>    
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="http://i259.photobucket.com/albums/hh316/alejo1973/lapices/ColorPen_1006.jpg">
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>El gato</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>El lapiz</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>Los gatos</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>Los lapices</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                             <img src="https://pbs.twimg.com/profile_images/471786803608170497/kIzFNyey.jpeg">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="http://cdn.skim.gs/image/upload/v1456343428/msi/boy-playing-basketball_xwci10.jpg">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="http://3.bp.blogspot.com/_EZ16vWYvHHg/TGLAJtOsNoI/AAAAAAAAQ08/A-0hX10_XcM/s1600/www.BancodeImagenesGratuitas.com-Walls-5.jpg">
+                                        </div>
+                                    </div>    
+                                    <div class="col-sm-3">
+                                        <div class="thumbnail">
+                                            <img src="http://notinor.com/jujuy/wp-content/uploads/2016/08/ninos-jugando.jpg">
+                                        </div>
+                                    </div>
+                                  </div>
+                                    <div class="row">
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>La mano</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>El niño</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>Las manos</h3>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3">
+                                            <div class="caption">
+                                                <h3>Los niños</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-10">
+                                        <p class="top-content">Let's practice!</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-10">
+                                        <div class="panel">
+                                            <div class="panel-heading question">
+                                        <p><span class="glyphicon glyphicon-blackboard"></span> Classify los sustantivos according to number: singular or plural:</p>
+                                            </div>
+                                            <div class="panel-body">
+                                                <div class="row">
+                                                    <div class="col-xs-4"></div>
+                                                    <div class="col-xs-4"> 
+                                                       <div>
+                                                           <h3 class="edit">Singular</h3>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-4"> 
+                                                       <div>
+                                                           <h3 class="edit">Plural</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class="col-xs-4"> 
+                                                        <h3 class="edit">Carros</h3>
+                                                     </div>
+                                                    <div class="col-xs-4"> 
+                                                       <div class="radio">
+                                                           <input type="radio" name="option1">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-4"> 
+                                                       <div class="radio">
+                                                           <input type="radio" name="option1">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr>
+                                                    <div class="row">
+                                                        <div class="col-xs-4"> 
+                                                            <h3 class="edit">Estrellas</h3>
+                                                         </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option2">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option2">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-xs-4"> 
+                                                            <h3 class="edit">Pelota</h3>
+                                                         </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option3">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option3">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-xs-4"> 
+                                                            <h3 class="edit">Perro</h3>
+                                                         </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option4">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option4">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-xs-4"> 
+                                                            <h3 class="edit">Casa</h3>
+                                                         </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option5">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option5">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <hr>
+                                                    <div class="row">
+                                                        <div class="col-xs-4"> 
+                                                            <h3 class="edit">Árboles</h3>
+                                                         </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option6">
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xs-4"> 
+                                                           <div class="radio">
+                                                               <input type="radio" name="option6">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                <hr>
+                                                <div class="form-group">
+                                                    <div class="col-xs-offset-9 col-xs-3 spec">
+                                                        <button type="submit" class="btn btn-info btn-lg">Reset all</button>
+                                                        <button type="submit" class="btn btn-success btn-lg">Submit</button>
+                                                    </div>
+                                                </div>
+                                                </div><!--end panel-body-->
+                                        </div><!--end of panel-->
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                </div> <!--end sustantivo tab-->  
+
+                                <div id="menu1" class="tab-pane fade">
+                                  <h3>ADJETIVOS</h3>
+                                  <p><span class="label label-warning">Los adjetivos</span> are used when describing <span class="label label-warning">sustantivos</span>.</p> 
+                                    <p>Qualities, colors, sizes, temperatures and many other qualifiers are therefore <span class="label label-warning">adjetivos</span>.</p>
+                                </div> <!-- end adjetivo tab-->
+
+
+                                <div id="menu2" class="tab-pane fade">
+                                  <h3>ARTÍCULOS</h3>
+                                    <p><span class="label label-warning">Los artículos</span> don’t have a meaning by themselves; they are just there to accompany <span class="label label-warning">los sustantivos</span>.</p>
+                                    <p><span class="label label-warning">Los artículos</span> must agree in gender and number with <span class="label label-warning">los sustantivos</span></p>
+                                </div> <!-- end articulos tab-->
+
+
+                                <div id="menu3" class="tab-pane fade">
+                                  <h3>EJERCICIOS</h3>
+                                  <p>This section is for integrative exercises. Students will have to produce themselves short phrases.</p>
+                                </div><!--end ejercicios tab-->
+                              
+                    </div> <!--end tab-content-->   
+                </div> <!--container wraping the tabs-->
+                
+        </div> <!--end well-->
+        <footer>
+            <h3>Copyright &copy; 2017 &mdash; Bright Future Labs</h3>
+        </footer>
+    </div><!--end container-fluid-->
+        
+        
+    
+
+
+
+        
+        
+    
+   
+      
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="Bootstrap/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
